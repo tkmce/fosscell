@@ -52,9 +52,9 @@
 
     {% for entry in site.data.contact %}
       {% capture url %}
-        {%- if entry.type == 'github' -%}
+        {%- if entry.type == 'github' and site.github.username -%}
           https://github.com/{{ site.github.username }}
-        {%- elsif entry.type == 'twitter' -%}
+        {%- elsif entry.type == 'twitter' and site.twitter.username -%}
           https://twitter.com/{{ site.twitter.username }}
         {%- elsif entry.type == 'email' -%}
           {% assign email = site.social.email | split: '@' %}
