@@ -1,12 +1,5 @@
 name: 'Automatic build'
-on:
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE
+on: [push, workflow_dispatch]
 
 jobs:
   continuous-delivery:
