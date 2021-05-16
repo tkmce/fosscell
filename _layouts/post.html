@@ -3,6 +3,8 @@ layout: default
 # The posts' layout
 ---
 
+{{ site.authors }}
+
 <div class="row">
 
   <div id="post-wrapper" class="col-12 col-lg-11 col-xl-8">
@@ -15,9 +17,14 @@ layout: default
         <!-- Published date and author -->
         <div>
           <span class="semi-bold">
-            {{ page.author | default: site.social.name }}
+            {% assign author = site.authors | where: 'short_name', page.author | first %}
+            {% if author %}
+              By: <a href="{{ author.url | relative_url }}">{{ author.short_name }}</a>
+            {% else %}
+              {{ site.social.name }}
+            {% endif %}
           </span>
-          {% include timeago.html date=page.date prep="on" tooltip=true %}
+          - {% include timeago.html date=page.date prep="on" tooltip=true %}
         </div>
 
         <div>
