@@ -45,6 +45,12 @@
       </a>
     </li> <!-- .nav-item -->
     {% endfor %}
+    <li class="nav-item{% if page.layout == 'page' %}{{ " active" }}{% endif %}">
+      <a href="{{ '/authors/' | relative_url }}" class="nav-link">
+        <i class="fa-fw fas fa-users ml-xl-3 mr-xl-3 unloaded"></i>
+        <span>{{ "AUTHORS" }}</span>
+      </a>
+    </li>
 
   </ul> <!-- ul.nav.flex-column -->
 

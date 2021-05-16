@@ -1,6 +1,6 @@
 ---
 title: FOSS CELL Action Plan
-author: AToMiXhawk, Vaskian
+author: Vaskian
 date: 2021-05-16 02:00:00 +0530
 categories: [Action Plan]
 tags: [plan, ideas, transition, foss]
