@@ -7,13 +7,15 @@ title: Authors
 
 <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
         {% for author in site.authors %}
-            <div class="card">
-                <a href="{{ author.url | relative_url }}">
-                    <div class="card-body">
-                        <h3 class="pt-0 mt-1 mb-3">{{ author.name }}</h3>
-                        {{ author.short_name }}
-                    </div>
-            </div>
-            <br>
+            {% if author.short_name %}
+                <div class="card">
+                    <a href="{{ author.url | relative_url }}">
+                        <div class="card-body">
+                            <h3 class="pt-0 mt-1 mb-3">{{ author.name }}</h3>
+                            {{ author.short_name }}
+                        </div>
+                </div>
+                <br>
+            {% endif %}
         {% endfor %}
 </div>
