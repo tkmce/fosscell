@@ -25,7 +25,6 @@ layout: page
     height: 5rem;
     width: auto;
     border-radius: 50%;
-    margin-top: auto  ;
   }
 
   .content {
@@ -39,7 +38,12 @@ layout: page
   }
 
   .social {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .social a{
+    text-decoration: none;
+    transition: 0.5s;
   }
 </style>
 
@@ -48,10 +52,6 @@ layout: page
   <div class="content">
     <h1>{{ page.name }} -</h1>
     <h2>{{ page.short_name }}</h2>
-
-    <div class="social">
-      <a href=""><i class="fab fa-github-alt"></i></a>
-    </div>
 
     <h4 class="position">{{ page.position }}</h4>
 
