@@ -10,6 +10,17 @@ layout: page
     display: inline;
   }
 
+  .tag {
+    background-color: #34853f;
+    border-color: #aa1414;
+    display: inline;
+    margin: 1rem;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+  }
+
   .card {
     display: grid;
     grid-template-columns: 1fr 4fr ;
@@ -25,6 +36,11 @@ layout: page
     height: 5rem;
     width: auto;
     border-radius: 50%;
+  }
+
+  .posts {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .content {
@@ -57,12 +73,20 @@ layout: page
 
     {{ content }}
 
-    <h2>Posts</h2>
-    <ul>
-      {% assign filtered_posts = site.posts | where: site.author,
-      page.short_name %} {% for post in filtered_posts %}
-      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+    {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+    {% assign count = filtered_posts | size %} 
+
+    {% if count > 0 %}
+      <h2>Posts</h2> 
+      <div class="tag"> Count: {{ count }} </div>
+
+      <div class="posts">
+        <ul> 
+          {% for post in filtered_posts %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
   </div>
 </div>
