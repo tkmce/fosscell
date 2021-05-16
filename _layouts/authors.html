@@ -4,12 +4,17 @@ title: Authors
 ---
 <h1>Authors</h1>
 
-<ul>
-    {% for author in site.authors %}
-      <li>
-        <h2><a href="{{ author.url | relative_url }}">{{ author.name }}</a></h2>
-        <h3>{{ author.position }}</h3>
-        <p>{{ author.content | markdownify }}</p>
-      </li>
-    {% endfor %}
-</ul>
+
+<div id="related-posts" class="mt-5 mb-2 mb-sm-4">
+        {% for author in site.authors %}
+            <div class="card">
+                <a href="{{ author.url | relative_url }}">
+                    <div class="card-body">
+                        <h3 class="pt-0 mt-1 mb-3">{{ author.name }}</h3>
+                        {% include timeago.html date=post.date class="small" %}
+                        {{ author.short_name }}
+                    </div>
+            </div>
+            <br>
+        {% endfor %}
+</div>

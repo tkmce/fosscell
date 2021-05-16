@@ -2,15 +2,29 @@
 layout: page
 # The Authors page layout
 ---
+<style>
+    h1, h2 {
+    display: inline;
+    }
+    img {
+        border-radius: 50%;
+        border-right: 100;
+    }   
+    </style>
 
-<h1>{{ page.name }}</h1>
-<h2>{{ page.position }}</h2>
+<br><br>
+<img src={{ page.gravatar }} alt="avatar">
+<br>
+<h1>{{ page.name }} - </h1>
+<h2>{{ page.short_name }}</h2>
+
+<h4>{{ page.position }}</h2>
 
 {{ content }}
 
 <h2>Posts</h2>
 <ul>
-  {% assign filtered_posts = site.posts | where: site.author, Vaskian %}
+  {% assign filtered_posts = site.posts | where: site.author, page.short_name %}
   {% for post in filtered_posts %}
     <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
   {% endfor %}
