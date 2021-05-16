@@ -2,30 +2,67 @@
 layout: page
 # The Authors page layout
 ---
+
 <style>
-    h1, h2 {
+
+  h1,
+  h2 {
     display: inline;
-    }
-    img {
-        border-radius: 50%;
-        border-right: 100;
-    }   
-    </style>
+  }
 
-<br><br>
-<img src={{ page.gravatar }} alt="avatar">
-<br>
-<h1>{{ page.name }} - </h1>
-<h2>{{ page.short_name }}</h2>
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+    color: var(--text-color);
+    background-color: var(--topbar-wrapper-bg);
+    max-width: 500px;
+    margin: 3rem auto auto auto;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
 
-<h4>{{ page.position }}</h2>
+  img {
+    height: 5rem;
+    width: auto;
+    border-radius: 50%;
+    margin-top: auto  ;
+  }
 
-{{ content }}
+  .content {
+    padding-left: 1rem;
+    border-left: 2px solid var(--btn-border-color);
+  }
 
-<h2>Posts</h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: site.author, page.short_name %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+  .content > .position {
+    margin-bottom: 2rem;
+    color: var(--blockquote-text-color);
+  }
+
+  .social {
+    font-size: 1.5rem;
+  }
+</style>
+
+<div class="card">
+  <img src={{page.gravatar}} alt="avatar" />
+  <div class="content">
+    <h1>{{ page.name }} -</h1>
+    <h2>{{ page.short_name }}</h2>
+
+    <div class="social">
+      <a href=""><i class="fab fa-github-alt"></i></a>
+    </div>
+
+    <h4 class="position">{{ page.position }}</h4>
+
+    {{ content }}
+
+    <h2>Posts</h2>
+    <ul>
+      {% assign filtered_posts = site.posts | where: site.author,
+      page.short_name %} {% for post in filtered_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
