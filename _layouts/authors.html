@@ -2,20 +2,75 @@
 layout: page
 title: Authors
 ---
-<h1>Authors</h1>
+
+<style> 
+    .card {
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      color: var(--text-color);
+      background-color: var(--topbar-wrapper-bg);
+      margin: 3rem auto 3rem auto;
+      border-radius: 1rem;
+      padding: 1rem;
+      transition: 0.5s;
+    }
+
+    .card:hover {
+      -webkit-transform: translate3d(0, -3px, 0);
+      transform: translate3d(0, -3px, 0);
+      box-shadow: 0 10px 15px -4px rgba(0, 0, 0, 0.15);
+    }
+
+    .tag {
+      background-color: #34853f;
+      border-color: #aa1414;
+      display: inline;
+      margin: 1rem;
+      text-align: center;
+      font-size: small;
+      font-weight: bold;
+      font-style: italic;
+      width: auto;
+    }
+  
+    img {
+      height: 5rem;
+      width: auto;
+      border-radius: 50%;
+      margin: 0 auto;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+  
+    .content {
+      padding-left: 1rem;
+      border-left: 2px solid var(--btn-border-color);
+    }
+  
+    .content > .position {
+      margin-bottom: 1rem;
+      color: var(--blockquote-text-color);
+    }
 
 
-<div id="related-posts" class="mt-5 mb-2 mb-sm-4">
-        {% for author in site.authors %}
-            {% if author.short_name %}
-                <div class="card">
-                    <a href="{{ author.url | relative_url }}">
-                        <div class="card-body">
-                            <h3 class="pt-0 mt-1 mb-3">{{ author.name }}</h3>
-                            {{ author.short_name }}
-                        </div>
-                </div>
-                <br>
-            {% endif %}
-        {% endfor %}
-</div>
+
+</style>
+
+
+{% for author in site.authors %}
+    {% if author.short_name %}
+      <a href="{{ author.url | relative_url }}">
+        <div class="card">
+          <img src={{author.gravatar}} alt="avatar" />
+          <div class="content">
+              <h3 class="pt-0 mt-1 mb-3">{{ author.name }}</h3>
+              {{ author.short_name }}
+              {% assign filtered_posts = site.posts | where: 'author', author.short_name %}
+              {% assign count = filtered_posts | size %}
+              {% if count > 0 %}
+                <div class="tag"> Post count: {{ count }} </div>
+              {% endif %}
+          </div>
+        </div>
+      </a>
+    {% endif %}
+{% endfor %}
