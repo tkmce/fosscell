@@ -99,6 +99,8 @@ layout: page
         {%- elsif entry.type == 'email' and page.email -%}
           {% assign email = page.email | split: '@' %}
           javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+        {%- elsif entry.type == 'telegram' and page.telegram -%}
+          https://t.me/{{ page.telegram }}
         {%- endif -%}
       {% endcapture %}
 

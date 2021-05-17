@@ -4,6 +4,7 @@ name: Githin Manesh
 position: Maintainer
 layout: author
 twitter: atomixhawk
+telegram: atomixhawk
 email: githinmanesh@gmail.com
 github: atomixhawk
 web: https://githin.xyz

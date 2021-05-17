@@ -23,7 +23,7 @@ description: >-                        # used by seo meta and the atom feed
   FOSS everywhere
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://tkmce.github.io/fosscell'
 
 github:
   username: tkmce             # change to your github username
@@ -31,11 +31,14 @@ github:
 twitter:
   username: tkmcefoss            # change to your twitter username
 
+telegram:
+  username: tkmcefoss
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: tkmce
-  email: githinmanesh@gmail.com             # change to your email address
+  email: 'fosscell@tkmce.ac.in'             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage

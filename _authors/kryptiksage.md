@@ -4,6 +4,7 @@ name: Harikrishnan A Nair
 position: Maintainer
 layout: author
 twitter: kryptiksage
+telegram: kryptiksage
 email: kryptiksage@gmail.com
 github: kryptiksage
 web: https://hari-krishnan.xyz/

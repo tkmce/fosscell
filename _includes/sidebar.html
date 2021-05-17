@@ -48,13 +48,14 @@
   </ul> <!-- ul.nav.flex-column -->
 
   <div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center">
-
     {% for entry in site.data.contact %}
       {% capture url %}
         {%- if entry.type == 'github' and site.github.username -%}
           https://github.com/{{ site.github.username }}
         {%- elsif entry.type == 'twitter' and site.twitter.username -%}
           https://twitter.com/{{ site.twitter.username }}
+        {%- elsif entry.type == 'telegram' and site.telegram.username -%}
+          https://t.me/{{ site.telegram.username }}
         {%- elsif entry.type == 'email' -%}
           {% assign email = site.social.email | split: '@' %}
           javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
