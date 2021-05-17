@@ -15,8 +15,13 @@
           <i class="fa-fw {{ share.icon }}"></i>
         </a>
     {% endfor %}
+    
+    <div class="share-btn-cls" style="display:inline-block">
+      <i class="fa-fw fas fa-share-square" onclick="shareLink('{{title}}')"
+        data-toggle="tooltip" data-placement="top" title="Share link"></i>
+    </div>
 
-    <i class="fa-fw fas fa-link small" onclick="copyLink()"
+    <i class="fa-fw fas fa-link" onclick="copyLink()"
         data-toggle="tooltip" data-placement="top" title="Copy link"></i>
 
   </span>
