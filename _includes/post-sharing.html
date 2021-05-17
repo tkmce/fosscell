@@ -6,8 +6,8 @@
   <span class="share-label text-muted mr-1">{{ site.data.label.post.share | default: 'Share' }}</span>
   <span class="share-icons">
     {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
-    {% assign url = page.url | absolute_url %}
-    <font size="2px"> {{ url }} </font> 
+    {% assign page_url = page.url | relative_url %}
+    {% assign url = site.url | append: page_url %}
     {% for share in site.data.share.platforms %}
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
         <a href="{{ link }}" data-toggle="tooltip" data-placement="top"
