@@ -2,6 +2,11 @@
 layout: default
 # The posts' layout
 ---
+<style> 
+  .share-btn-cls {
+    margin-left: 5px;
+  }
+</style>
 
 {{ site.authors }}
 
@@ -11,7 +16,11 @@ layout: default
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>{{ page.title }}</h1>
+      <h1 data-toc-skip style="display:inline-block">{{ page.title }}</h1>
+      <div class="share-btn-cls" style="display:inline-block">
+        <i class="fa-fw fas fa-share-square" onclick="shareLink('{{title}}')"
+          data-toggle="tooltip" data-placement="top" title="Share link"></i>
+      </div>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
