@@ -26,8 +26,8 @@ jobs:
           fi
 
       - name: Build Site
-        env:
-          JEKYLL_ENV: production
+        # env:
+          # JEKYLL_ENV: production
         run: |
           bundle exec jekyll b -d "_site$BASE_URL"
 
