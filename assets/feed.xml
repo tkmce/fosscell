@@ -22,7 +22,7 @@ permalink: /feed.xml
   <icon>{{ site.baseurl }}/assets/img/favicons/favicon.ico</icon>
   <logo>{{ site.baseurl }}/assets/img/favicons/favicon-96x96.png</logo>
 
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 10 %}
   {% assign post_absolute_url = post.url | absolute_url %}
   <entry>
     <title>{{ post.title }}</title>
@@ -34,7 +34,18 @@ permalink: /feed.xml
     <updated>{{ post.date | date_to_xmlschema }}</updated>
   {% endif %}
     <id>{{ post_absolute_url }}</id>
-    <content src="{{ post_absolute_url }}" />
+  {% if post.image.src %}
+    <image>
+      <url>{{ post.image.src | absolute_url }}</url>
+      <title>{{ post.image.alt }}</title>
+    </image>
+  {% endif %}
+    <content type="html" xml:base="{{ post_absolute_url }}">
+    {% if post.image.src %}
+      <img src="{{ post.image.src | absolute_url }}"/>
+    {% endif %}
+    {{ post.content }}
+    </content>
     <author>
       <name>{{ post.author | default: site.social.name }}</name>
     </author>
