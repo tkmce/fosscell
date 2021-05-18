@@ -16,6 +16,7 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
 title: FOSS CELL TKMCE                          # the main title
+short_title: TKMCEFOSS                          # for pwa name
 
 tagline: Promoting FOSS   # it will display as the sub-title
 
