@@ -97,39 +97,39 @@ Click the hook will locate the footnote[^footnote], and here is another footnote
 
 - Default (with caption)
 
-![Desktop View](/assets/posts/text-and-typography/mockup.png)
+![Desktop View]({{ "/assets/posts/text-and-typography/mockup.png" | absolute_url }})
 _Full screen width and center alignment_
 
 <br>
 
 - Specify width
 
-![Desktop View](/assets/posts/text-and-typography/mockup.png){: width="400"}
+![Desktop View]({{ "/assets/posts/text-and-typography/mockup.png" | absolute_url }}){: width="400"}
 _400px image width_
 
 - Shadow
 
-![Shadow Avatar](/assets/posts/text-and-typography/window.png){: .shadow width="90%" }
+![Shadow Avatar]({{ "/assets/posts/text-and-typography/window.png" | absolute_url }}){: .shadow width="90%" }
 _shadow effect (visible in light mode)_
 
 <br>
 
 - Left aligned
 
-![Desktop View](/assets/posts/text-and-typography/mockup.png){: width="350" .normal}
+![Desktop View]({{ "/assets/posts/text-and-typography/mockup.png" | absolute_url }}){: width="350" .normal}
 
 <br>
 
 - Float to left
 
-  ![Desktop View](/assets/posts/text-and-typography/mockup.png){: width="240" .left}
+  ![Desktop View]({{ "/assets/posts/text-and-typography/mockup.png" | absolute_url }}){: width="240" .left}
   "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
 
 <br>
 
 - Float to right
 
-  ![Desktop View](/assets/posts/text-and-typography/mockup.png){: width="240" .right}
+  ![Desktop View]({{ "/assets/posts/text-and-typography/mockup.png" | absolute_url }}){: width="240" .right}
   "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
 
 <br>
