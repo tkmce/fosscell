@@ -1,0 +1,49 @@
+[
+  
+  {
+    "title": "Text and Typography",
+    "url": "/fosscell/posts/text-and-typography/",
+    "categories": "Tutorial, Blogging",
+    "tags": "contribute, post, blog, how, writing",
+    "date": "2021-05-18 11:00:00 +0530",
+    
+
+
+
+
+
+    "snippet": "This post is to show Markdown syntax renderings, you can also use it as an example of writing. Now, let’s start looking at text and typography.TitlesH1 - headingH2 - headingH3 - headingH4 - headingParagraphI wandered lonely as a cloudThat floats on high o’er vales and hills,When all at once I saw..."
+  },
+  
+  {
+    "title": "How to Contribute a new post",
+    "url": "/fosscell/posts/how-to/",
+    "categories": "Tutorial, Blogging",
+    "tags": "contribute, post, blog, how, writing",
+    "date": "2021-05-17 20:00:00 +0530",
+    
+
+
+
+
+
+    "snippet": "This blog is powered by Jekyll, which is a simplestatic site generator that generates webpages from markdown files. This post explains how to write and contribute a new post.Please visit Jekyll Docs to know more and maybe create a blog for yourself.This blog uses jekyll-theme-chirpy created by co..."
+  },
+  
+  {
+    "title": "FOSS CELL Action Plan",
+    "url": "/fosscell/posts/action-plan/",
+    "categories": "Action Plan",
+    "tags": "plan, ideas, transition, foss",
+    "date": "2021-05-16 02:00:00 +0530",
+    
+
+
+
+
+
+    "snippet": "Objectives      Expose students to the FOSS environment and facilitate them to use open software/ hardware.        Promote Research &amp;amp; Development activities on FOSS.        Explore various Open Source Certifications and Outreach Programmes.        Collaborate with and contribute to variou..."
+  }
+  
+]
+

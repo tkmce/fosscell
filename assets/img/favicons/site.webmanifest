@@ -1,0 +1,108 @@
+
+
+{
+  "name": "FOSS CELL TKMCE",
+  "short_name": "TKMCEFOSS",
+  "description": "FOSS everywhere",
+  "icons": [
+    {
+      "src": "/fosscell/assets/img/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/fosscell/assets/img/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/fosscell/assets/img/favicons/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/fosscell/assets/img/favicons/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }],
+  "start_url": "/fosscell/index.html",
+  "theme_color": "#3fa648",
+  "background_color": "#1b1b1d",
+  "display": "standalone",
+  "orientation": "any",
+  "categories": ["blog", "tech", "foss", "education"],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Homepage of this blog",
+      "url": "/fosscell/index.html",
+      "icons": [{ "src": "/fosscell/assets/img/favicons/home.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Authors",
+      "short_name": "Authors",
+      "description": "View the list of authors of this blog",
+      "url": "/fosscell/authors",
+      "icons": [{ "src": "/fosscell/assets/img/favicons/authors.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Categories",
+      "short_name": "Categories",
+      "description": "View the categories of posts in this blog",
+      "url": "/fosscell/categories",
+      "icons": [{ "src": "/fosscell/assets/img/favicons/categories.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Tags",
+      "short_name": "Tags",
+      "description": "View the tags associated with posts in this blog",
+      "url": "/fosscell/tags",
+      "icons": [{ "src": "/fosscell/assets/img/favicons/tags.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Archives",
+      "short_name": "Archives",
+      "description": "View the timeline of the blog",
+      "url": "/fosscell/archives",
+      "icons": [{ "src": "/fosscell/assets/img/favicons/archives.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "About this blog",
+      "url": "/fosscell/about",
+      "icons": [{ "src": "/fosscell/assets/img/favicons/about.png", "sizes": "48x48" }]
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "/fosscell/assets/img/favicons/sc1.png",
+      "sizes": "1900x1000",
+      "type": "image/png"
+    },
+    {
+      "src": "/fosscell/assets/img/favicons/sc2.png",
+      "sizes": "1900x1000",
+      "type": "image/png"
+    },
+    {
+      "src": "/fosscell/assets/img/favicons/sc3.png",
+      "sizes": "1080x2160",
+      "type": "image/png"
+    },
+    {
+      "src": "/fosscell/assets/img/favicons/sc4.png",
+      "sizes": "1080x2160",
+      "type": "image/png"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "Read Offline"
+  ]
+}

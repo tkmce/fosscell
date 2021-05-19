@@ -1,0 +1,926 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://tkmce.github.io/fosscell/</id>
+  <title>FOSS CELL TKMCE</title>
+  <subtitle>FOSS everywhere</subtitle>
+  <updated>2021-05-19T18:47:16+05:30</updated>
+  <author>
+    <name>tkmce</name>
+    <uri>https://tkmce.github.io/fosscell/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://tkmce.github.io/fosscell/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="https://tkmce.github.io/fosscell/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 tkmce </rights>
+  <icon>/fosscell/assets/img/favicons/favicon.ico</icon>
+  <logo>/fosscell/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Text and Typography</title>
+    <link href="https://tkmce.github.io/fosscell/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
+    <published>2021-05-18T11:00:00+05:30</published>
+  
+    <updated>2021-05-18T14:32:37+05:30</updated>
+  
+    <id>https://tkmce.github.io/fosscell/posts/text-and-typography/</id>
+  
+    <image>
+      <url>https://tkmce.github.io/fosscell/assets/posts/text-and-typography/cover.png</url>
+      <title></title>
+    </image>
+  
+    <content type="html" xml:base="https://tkmce.github.io/fosscell/posts/text-and-typography/">
+    
+      <img src="https://tkmce.github.io/fosscell/assets/posts/text-and-typography/cover.png"/>
+    
+    <p>This post is to show Markdown syntax renderings, you can also use it as an example of writing. Now, let’s start looking at text and typography.</p>
+
+<h2 id="titles">Titles</h2>
+<hr />
+<h1 id="h1---heading">H1 - heading</h1>
+
+<h2 data-toc-skip="">H2 - heading</h2>
+
+<h3 data-toc-skip="">H3 - heading</h3>
+
+<h4>H4 - heading</h4>
+<hr />
+<p><br /></p>
+
+<h2 id="paragraph">Paragraph</h2>
+
+<p>I wandered lonely as a cloud</p>
+
+<p>That floats on high o’er vales and hills,</p>
+
+<p>When all at once I saw a crowd,</p>
+
+<p>A host, of golden daffodils;</p>
+
+<p>Beside the lake, beneath the trees,</p>
+
+<p>Fluttering and dancing in the breeze.</p>
+
+<h2 id="lists">Lists</h2>
+
+<h3 id="ordered-list">Ordered list</h3>
+
+<ol>
+  <li>Firstly</li>
+  <li>Secondly</li>
+  <li>Thirdly</li>
+</ol>
+
+<h3 id="unordered-list">Unordered list</h3>
+
+<ul>
+  <li>Chapter
+    <ul>
+      <li>Setcion
+        <ul>
+          <li>Paragraph</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="task-list">Task list</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />TODO</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Completed</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Defeat COVID-19
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Vaccine production</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Economic recovery</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />People smile again</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="description-list">Description list</h3>
+
+<dl>
+  <dt>Sun</dt>
+  <dd>the star around which the earth orbits</dd>
+  <dt>Moon</dt>
+  <dd>the natural satellite of the earth, visible by reflected light from the sun</dd>
+</dl>
+
+<h2 id="block-quote">Block Quote</h2>
+
+<blockquote>
+  <p>This line to shows the Block Quote.</p>
+</blockquote>
+
+<h2 id="tables">Tables</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Company</th>
+      <th style="text-align: left">Contact</th>
+      <th style="text-align: right">Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Alfreds Futterkiste</td>
+      <td style="text-align: left">Maria Anders</td>
+      <td style="text-align: right">Germany</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Island Trading</td>
+      <td style="text-align: left">Helen Bennett</td>
+      <td style="text-align: right">UK</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Magazzini Alimentari Riuniti</td>
+      <td style="text-align: left">Giovanni Rovelli</td>
+      <td style="text-align: right">Italy</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="links">Links</h2>
+
+<p><a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a></p>
+
+<h2 id="footnote">Footnote</h2>
+
+<p>Click the hook will locate the footnote<sup id="fnref:footnote" role="doc-noteref"><a href="#fn:footnote" class="footnote" rel="footnote">1</a></sup>, and here is another footnote<sup id="fnref:fn-nth-2" role="doc-noteref"><a href="#fn:fn-nth-2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<h2 id="images">Images</h2>
+
+<ul>
+  <li>Default (with caption)</li>
+</ul>
+
+<p><img src="https://tkmce.github.io/fosscell/assets/posts/text-and-typography/mockup.png" alt="Desktop View" />
+<em>Full screen width and center alignment</em></p>
+
+<p><br /></p>
+
+<ul>
+  <li>Specify width</li>
+</ul>
+
+<p><img src="https://tkmce.github.io/fosscell/assets/posts/text-and-typography/mockup.png" alt="Desktop View" width="400" />
+<em>400px image width</em></p>
+
+<ul>
+  <li>Shadow</li>
+</ul>
+
+<p><img src="https://tkmce.github.io/fosscell/assets/posts/text-and-typography/window.png" alt="Shadow Avatar" class="shadow" width="90%" />
+<em>shadow effect (visible in light mode)</em></p>
+
+<p><br /></p>
+
+<ul>
+  <li>Left aligned</li>
+</ul>
+
+<p><img src="https://tkmce.github.io/fosscell/assets/posts/text-and-typography/mockup.png" alt="Desktop View" width="350" class="normal" /></p>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Float to left</p>
+
+    <p><img src="https://tkmce.github.io/fosscell/assets/posts/text-and-typography/mockup.png" alt="Desktop View" width="240" class="left" />
+“A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space.”</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Float to right</p>
+
+    <p><img src="https://tkmce.github.io/fosscell/assets/posts/text-and-typography/mockup.png" alt="Desktop View" width="240" class="right" />
+“A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space.”</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="mermaid-svg">Mermaid SVG</h2>
+
+<pre><code class="language-mermaid"> gantt
+  title  Adding GANTT diagram functionality to mermaid
+  apple :a, 2017-07-20, 1w
+  banana :crit, b, 2017-07-23, 1d
+  cherry :active, c, after b a, 1d
+</code></pre>
+
+<h2 id="mathematics">Mathematics</h2>
+
+<p>The mathematics powered by <a href="https://www.mathjax.org/"><strong>MathJax</strong></a>:</p>
+
+\[\sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}\]
+
+<p>When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are</p>
+
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]
+
+<h2 id="inline-code">Inline code</h2>
+
+<p>This is an example of <code class="language-plaintext highlighter-rouge">Inline Code</code>.</p>
+
+<h2 id="code-block">Code block</h2>
+
+<h3 id="common">Common</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>This is a common code snippet, without syntax highlight and line number.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="specific-languages">Specific Languages</h3>
+
+<h4 id="console">Console</h4>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span><span class="nb">env</span> |grep SHELL
+<span class="go">SHELL=/usr/local/bin/bash
+PYENV_SHELL=bash
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+
+<h4 id="ruby">Ruby</h4>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">sum_eq_n?</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+  <span class="k">return</span> <span class="kp">true</span> <span class="k">if</span> <span class="n">arr</span><span class="p">.</span><span class="nf">empty?</span> <span class="o">&amp;amp;&amp;amp;</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span>
+  <span class="n">arr</span><span class="p">.</span><span class="nf">product</span><span class="p">(</span><span class="n">arr</span><span class="p">).</span><span class="nf">reject</span> <span class="p">{</span> <span class="o">|</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="o">|</span> <span class="n">a</span> <span class="o">==</span> <span class="n">b</span> <span class="p">}.</span><span class="nf">any?</span> <span class="p">{</span> <span class="o">|</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="o">|</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">==</span> <span class="n">n</span> <span class="p">}</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h4 id="shell">Shell</h4>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="k">if</span> <span class="o">[</span> <span class="nv">$?</span> <span class="nt">-ne</span> 0 <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"The command was not successful."</span><span class="p">;</span>
+    <span class="c">#do the needful / exit</span>
+<span class="k">fi</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h4 id="liquid">Liquid</h4>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">product</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="s1">'Pack'</span><span class="w"> </span><span class="p">%}</span>
+  This product's title contains the word Pack.
+<span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h4 id="java">Java</h4>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="kd">private</span> <span class="kt">void</span> <span class="nf">writeObject</span><span class="o">(</span><span class="n">java</span><span class="o">.</span><span class="na">io</span><span class="o">.</span><span class="na">ObjectOutputStream</span> <span class="n">s</span><span class="o">)</span>
+  <span class="kd">throws</span> <span class="n">java</span><span class="o">.</span><span class="na">io</span><span class="o">.</span><span class="na">IOException</span> <span class="o">{</span>
+  <span class="c1">// Write out any hidden serialization magic</span>
+  <span class="n">s</span><span class="o">.</span><span class="na">defaultWriteObject</span><span class="o">();</span>
+  <span class="k">for</span> <span class="o">(</span><span class="no">E</span> <span class="nl">e:</span> <span class="n">map</span><span class="o">.</span><span class="na">keySet</span><span class="o">())</span> <span class="n">s</span><span class="o">.</span><span class="na">writeObject</span><span class="o">(</span><span class="n">e</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="reverse-footnote">Reverse Footnote</h2>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:footnote" role="doc-endnote">
+      <p>The footnote source <a href="#fnref:footnote" class="reversefootnote" role="doc-backlink">&amp;#8617;</a></p>
+    </li>
+    <li id="fn:fn-nth-2" role="doc-endnote">
+      <p>The 2nd footnote source <a href="#fnref:fn-nth-2" class="reversefootnote" role="doc-backlink">&amp;#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </content>
+    <author>
+      <name>AToMiXhawK</name>
+    </author>
+
+  
+    
+    <category term="Tutorial" />
+    
+    <category term="Blogging" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This post is to show Markdown syntax renderings, you can also use it as an example of writing. Now, let’s start looking at text and typography.
+
+Titles
+
+H1 - heading
+
+H2 - heading
+
+H3 - heading
+
+H4 - heading
+
+
+
+Paragraph
+
+I wandered lonely as a cloud
+
+That floats on high o’er vales and hills,
+
+When all at once I saw a crowd,
+
+A host, of golden daffodils;
+
+Beside the lake, beneath the trees,
+
+Fl...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>How to Contribute a new post</title>
+    <link href="https://tkmce.github.io/fosscell/posts/how-to/" rel="alternate" type="text/html" title="How to Contribute a new post" />
+    <published>2021-05-17T20:00:00+05:30</published>
+  
+    <updated>2021-05-17T20:00:00+05:30</updated>
+  
+    <id>https://tkmce.github.io/fosscell/posts/how-to/</id>
+  
+    <content type="html" xml:base="https://tkmce.github.io/fosscell/posts/how-to/">
+    
+    <p>This blog is powered by <a href="https://jekyllrb.com/">Jekyll</a>, which is a simple
+static site generator that generates webpages from markdown files. 
+This post explains how to write and contribute a new post.
+Please visit <a href="https://jekyllrb.com/docs/">Jekyll Docs</a> to know more and maybe create a blog for yourself.</p>
+
+<p>This blog uses <a href="https://github.com/cotes2020/jekyll-theme-chirpy"><code class="language-plaintext highlighter-rouge">jekyll-theme-chirpy</code></a> created by <a href="https://github.com/cotes2020">cotes2020</a></p>
+
+<p>To contribute a new post either</p>
+<ul>
+  <li>send the post as <code class="language-plaintext highlighter-rouge">.md</code> fiels under <code class="language-plaintext highlighter-rouge">_posts/</code> as a git patch or</li>
+  <li>fork this repo, add your post and send a pull request.</li>
+</ul>
+
+<p>Please refer <a href="/fosscell/posts/text-and-typography/">this post</a> and <a href="https://www.markdownguide.org/basic-syntax/">markdownguide</a> to learn more about markdown syntax</p>
+
+<h2 id="naming-and-path">Naming and Path</h2>
+
+<p>To create a new post, create a new file named <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-TITLE.EXTENSION</code> and put it in the <code class="language-plaintext highlighter-rouge">_posts/</code> of the root directory. Please note that the <code class="language-plaintext highlighter-rouge">EXTENSION</code> must be one of <code class="language-plaintext highlighter-rouge">md</code> and <code class="language-plaintext highlighter-rouge">markdown</code>. Please refer files that alrea</p>
+
+<h2 id="front-matter">Front Matter</h2>
+
+<p>Basically, you need to fill the <a href="https://jekyllrb.com/docs/front-matter/">Front Matter</a> as below at the top of the post:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">TITLE</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">YYYY-MM-DD HH:MM:SS +/-TTTT</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">TOP_CATEGORIE</span><span class="pi">,</span> <span class="nv">SUB_CATEGORIE</span><span class="pi">]</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">TAG</span><span class="pi">]</span>     <span class="c1"># TAG names should always be lowercase</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p><strong>Note</strong>: The posts’ <strong><em>layout</em></strong> has been set to <code class="language-plaintext highlighter-rouge">post</code> by default, so there is no need to add the variable <strong><em>layout</em></strong> in Front Matter block.</p>
+</blockquote>
+
+<h3 id="timezone-of-date">Timezone of date</h3>
+
+<p>In order to accurately record the release date of a post, you should not only setup the <code class="language-plaintext highlighter-rouge">timezone</code> of <code class="language-plaintext highlighter-rouge">_config.yml</code> but also provide the the post’s timezone in field <code class="language-plaintext highlighter-rouge">date</code> of its Front Matter block. Format: <code class="language-plaintext highlighter-rouge">+/-TTTT</code>, e.g. <code class="language-plaintext highlighter-rouge">+0530</code> in case of India.</p>
+
+<h3 id="categories-and-tags">Categories and Tags</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">categories</code> of each post is designed to contain up to two elements, and the number of elements in <code class="language-plaintext highlighter-rouge">tags</code> can be zero to infinity. For instance:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">Animal</span><span class="pi">,</span> <span class="nv">Insect</span><span class="pi">]</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">bee</span><span class="pi">]</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<p>By default, the <strong>T</strong>able <strong>o</strong>f <strong>C</strong>ontents (TOC) is displayed on the right panel of the post. If you want to turn it off globally, go to <code class="language-plaintext highlighter-rouge">_config.yml</code> and set the value of variable <code class="language-plaintext highlighter-rouge">toc</code> to <code class="language-plaintext highlighter-rouge">false</code>. If you want to turn off TOC for specific post, add the following to post’s <a href="https://jekyllrb.com/docs/front-matter/">Front Matter</a>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">toc</span><span class="pi">:</span> <span class="no">false</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="comments">Comments</h2>
+
+<p>Similar to TOC, the <a href="https://disqus.com/">Disqus</a> comments is loaded by default in each post, and the global switch is defined by variable <code class="language-plaintext highlighter-rouge">comments</code> in file <code class="language-plaintext highlighter-rouge">_config.yml</code> . If you want to close the comment for specific post, add the following to the <strong>Front Matter</strong> of the post:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="no">false</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="mathematics">Mathematics</h2>
+
+<p>For website performance reasons, the mathematical feature won’t be loaded by default. But it can be enabled by:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">math</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="mermaid">Mermaid</h2>
+
+<p><a href="https://github.com/mermaid-js/mermaid"><strong>Mermaid</strong></a> is a great diagrams generation tool. To enable it on your post, add the following to the YAML block:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">mermaid</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Then you can use it like other markdown language: surround the graph code with <code class="language-plaintext highlighter-rouge">```mermaid</code> and <code class="language-plaintext highlighter-rouge">```</code>.</p>
+
+<h2 id="images">Images</h2>
+
+<p>When contributing a post, place related images at <code class="language-plaintext highlighter-rouge">assets/posts/&amp;lt;name of post&amp;gt;/</code> directory</p>
+
+<h3 id="preview-image">Preview image</h3>
+
+<p>If you want to add an image to the top of the post contents, specify the url and alt attribute for the image:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">image</span><span class="pi">:</span>
+  <span class="na">src</span><span class="pi">:</span> <span class="s">/assets/posts/text-and-typography/cover.png</span>
+  <span class="na">alt</span><span class="pi">:</span> <span class="s">image alternative text</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="image-caption">Image caption</h3>
+
+<p>Add italics to the next line of an image，then it will become the caption and appear at the bottom of the image:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="p">![</span><span class="nv">img-description</span><span class="p">](</span><span class="sx">/path/to/image</span><span class="p">)</span>
+<span class="ge">_Image Caption_</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="image-size">Image size</h3>
+
+<p>You can specify the width (and height) of a image with <code class="language-plaintext highlighter-rouge">width</code>:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="p">![</span><span class="nv">Desktop View</span><span class="p">](</span><span class="sx">/assets/img/sample/mockup.png</span><span class="p">)</span>{: width="400"}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="image-position">Image position</h3>
+
+<p>By default, the image is centered, but you can specify the position by using one of class <code class="language-plaintext highlighter-rouge">normal</code> , <code class="language-plaintext highlighter-rouge">left</code> and <code class="language-plaintext highlighter-rouge">right</code>. For example:</p>
+
+<ul>
+  <li>
+    <p><strong>Normal position</strong></p>
+
+    <p>Image will be left aligned in below sample:</p>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="p">![</span><span class="nv">Desktop View</span><span class="p">](</span><span class="sx">/assets/img/sample/mockup.png</span><span class="p">)</span>{: .normal}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Float to the left</strong></p>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="p">![</span><span class="nv">Desktop View</span><span class="p">](</span><span class="sx">/assets/img/sample/mockup.png</span><span class="p">)</span>{: .left}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Float to the right</strong></p>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="p">![</span><span class="nv">Desktop View</span><span class="p">](</span><span class="sx">/assets/img/sample/mockup.png</span><span class="p">)</span>{: .right}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Limitation</strong>: Once you specify the position of an image, it is forbidden to add the image caption.</p>
+</blockquote>
+
+<h3 id="image-shadow">Image shadow</h3>
+
+<p>The screenshots of the program window can be considered to show the shadow effect, and the shadow will be visible in the <code class="language-plaintext highlighter-rouge">light</code> mode:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="p">![</span><span class="nv">Desktop View</span><span class="p">](</span><span class="sx">/assets/img/sample/mockup.png</span><span class="p">)</span>{: .shadow}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="pinned-posts">Pinned Posts</h2>
+
+<p>You can pin one or more posts to the top of the home page, and the fixed posts are sorted in reverse order according to their release date. Enable by:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">pin</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="code-block">Code Block</h2>
+
+<p>Markdown symbols <code class="language-plaintext highlighter-rouge">```</code> can easily create a code block as following examples.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>This is a common code snippet, without syntax highlight and line number.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="specific-language">Specific Language</h2>
+
+<p>Using <code class="language-plaintext highlighter-rouge">```language</code> you will get code snippets with line numbers and syntax highlight.</p>
+
+<blockquote>
+  <p><strong>Note</strong>: The Jekyll style <code class="language-plaintext highlighter-rouge">{% highlight LANGUAGE %}</code> or <code class="language-plaintext highlighter-rouge">{% highlight LANGUAGE linenos %}</code> are not allowed to be used in this theme !</p>
+</blockquote>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="c1"># Yaml code snippet</span>
+<span class="na">items</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">part_no</span><span class="pi">:</span>   <span class="s">A4786</span>
+      <span class="na">descrip</span><span class="pi">:</span>   <span class="s">Water Bucket (Filled)</span>
+      <span class="na">price</span><span class="pi">:</span>     <span class="m">1.47</span>
+      <span class="na">quantity</span><span class="pi">:</span>  <span class="m">4</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="liquid-codes">Liquid Codes</h3>
+
+<p>If you want to display the <strong>Liquid</strong> snippet, surround the liquid code with <code class="language-plaintext highlighter-rouge">{% raw %}</code> and <code class="language-plaintext highlighter-rouge">{% endraw %}</code> .</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">product</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="ow">contains</span><span class="w"> </span><span class="s1">'Pack'</span><span class="w"> </span><span class="p">%}</span>
+  This product's title contains the word Pack.
+<span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="learn-more">Learn More</h2>
+
+<p>For more knowledge about Jekyll posts, visit the <a href="https://jekyllrb.com/docs/posts/">Jekyll Docs: Posts</a>.</p>
+
+    </content>
+    <author>
+      <name>AToMiXhawK</name>
+    </author>
+
+  
+    
+    <category term="Tutorial" />
+    
+    <category term="Blogging" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This blog is powered by Jekyll, which is a simple
+static site generator that generates webpages from markdown files. 
+This post explains how to write and contribute a new post.
+Please visit Jekyll Docs to know more and maybe create a blog for yourself.
+
+This blog uses jekyll-theme-chirpy created by cotes2020
+
+To contribute a new post either
+
+  send the post as .md fiels under _posts/ as a git p...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>FOSS CELL Action Plan</title>
+    <link href="https://tkmce.github.io/fosscell/posts/action-plan/" rel="alternate" type="text/html" title="FOSS CELL Action Plan" />
+    <published>2021-05-16T02:00:00+05:30</published>
+  
+    <updated>2021-05-17T00:46:52+05:30</updated>
+  
+    <id>https://tkmce.github.io/fosscell/posts/action-plan/</id>
+  
+    <content type="html" xml:base="https://tkmce.github.io/fosscell/posts/action-plan/">
+    
+    <hr />
+
+<h1 id="objectives">Objectives</h1>
+
+<ul>
+  <li>
+    <p>Expose students to the FOSS environment and facilitate them to use open software/ hardware.</p>
+  </li>
+  <li>
+    <p>Promote Research &amp;amp; Development activities on FOSS.</p>
+  </li>
+  <li>
+    <p>Explore various Open Source Certifications and Outreach Programmes.</p>
+  </li>
+  <li>
+    <p>Collaborate with and contribute to various open source communities and societies.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="myths-and-challenges">Myths and Challenges</h1>
+
+<ul>
+  <li>
+    <p>Hard to adapt to change</p>
+  </li>
+  <li>
+    <p>Stigma</p>
+  </li>
+  <li>
+    <p>Fear of losing data</p>
+  </li>
+  <li>
+    <p>Support system required</p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="student-exposure">Student Exposure</h1>
+
+<ul>
+  <li>
+    <p>Orientation - Intro to FOSS</p>
+  </li>
+  <li>
+    <p>Making contribution - Session on Git &amp;amp; GitHub</p>
+  </li>
+  <li>
+    <p>Session to help students move to Linux on their pc/lap.</p>
+  </li>
+  <li>
+    <p>Awareness of opportunities available while they are students.</p>
+  </li>
+  <li>
+    <p>Workshops/Mentorship session for smooth usage of FOSS Software.</p>
+  </li>
+  <li>
+    <p>Compulsory inclusion in the syllabus</p>
+  </li>
+  <li>
+    <p>FOSS Discussions</p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="software-migration-to-foss">Software Migration to FOSS</h1>
+<h2 id="both-in-labs-and-pcs">Both in LABS and PCs</h2>
+
+<ul>
+  <li>
+    <p>Making faculties migrate from Windows to GNU/Linux. If they want to keep Windows, Dual booting to have both Windows and GNU/Linux on their computers.</p>
+  </li>
+  <li>
+    <p>Lab Migration - Migrate from proprietary software used in Labs to their equivalent FOSS alternatives. Suggestions are given below:</p>
+  </li>
+  <li>
+    <p>Windows → GNU/Linux, BSD</p>
+  </li>
+  <li>
+    <p>Turbo C → GCC / MinGW/Clang</p>
+  </li>
+  <li>
+    <p>Matlab → Scilab / GNU Octave</p>
+  </li>
+  <li>
+    <p>Google Docs / MS-Office → LibreOffice</p>
+  </li>
+  <li>
+    <p>Google Meet / Zoom → BigBlueButton / Jitsi Meet</p>
+  </li>
+  <li>
+    <p>AutoCAD → FreeCAD</p>
+  </li>
+  <li>
+    <p>WhatsApp (class groups) → Telegram / Signal / Element (Clients using Matrix/XMPP protocol)</p>
+  </li>
+  <li>
+    <p>Etlab / Linways / Google Classroom → Moodle</p>
+  </li>
+  <li>
+    <p>Simulink → Xcos</p>
+  </li>
+  <li>
+    <p>Fluent → OpenFOAM</p>
+  </li>
+  <li>
+    <p>SPSS → R ORCAD</p>
+  </li>
+  <li>
+    <p>PSpice → eSim</p>
+  </li>
+  <li>
+    <p>AspenPlus/ CHEMCAD / Simsci P RO/II   → DWSIM, OpenModelica</p>
+  </li>
+  <li>
+    <p>CYME, ERACS, PSSE, ETAP → OpenModelica and OpenIPSL</p>
+  </li>
+  <li>
+    <p>Adobe Photoshop → GIMP</p>
+  </li>
+  <li>
+    <p>Adobe Premiere Pro / Final Cut (other video editing s/w) → Kdenlive / Blender / Openshot</p>
+  </li>
+  <li>
+    <p>Coreldraw, Adobe Illustrator → Inkscape</p>
+  </li>
+  <li>
+    <p>Pagemaker, QuarkXPress, Adobe Indesign → Scribus / LaTeX</p>
+  </li>
+  <li>
+    <p>Maya, 3D Max → Blender 3D</p>
+  </li>
+  <li>
+    <p>Adobe Flash → Synfig Studio</p>
+  </li>
+  <li>
+    <p>Google Drive → NextCloud / Owncloud</p>
+  </li>
+  <li>
+    <p>Google Chrome / Edge / IE → Firefox / Chromium (or based)</p>
+  </li>
+  <li>
+    <p>YouTube → Clients using LBRY Protocol (Odysee)</p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="some-useful-links">Some useful links</h2>
+
+<p>Scilab Lab Migration: https://scilab.in/procedure-lab-migration</p>
+
+<hr />
+
+<h1 id="research--development-activities">Research &amp;amp; Development activities</h1>
+
+<ul>
+  <li>
+    <p>LoRaWAN Support</p>
+  </li>
+  <li>
+    <p>Some of the projects  done by students have been open-sourced and is viewable at - <a href="https://github.com/tkm-ce">tkm-ce · GitHub</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="collaboration">Collaboration</h1>
+
+<p>Collaborate with and contribute to various open source communities and societies.</p>
+
+<ul>
+  <li>
+    <p>ICFOSS ✔️</p>
+  </li>
+  <li>
+    <p>RedHat Academy ✔️</p>
+  </li>
+  <li>
+    <p>GitHub Partner School ✔️</p>
+  </li>
+  <li>
+    <p>FOSSEE</p>
+  </li>
+  <li>
+    <p>Talks and Conferences (FOSSASIA)</p>
+  </li>
+  <li>
+    <p>………</p>
+  </li>
+</ul>
+
+<hr />
+
+    </content>
+    <author>
+      <name>vaskian</name>
+    </author>
+
+  
+    
+    <category term="Action Plan" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Objectives
+
+
+  
+    Expose students to the FOSS environment and facilitate them to use open software/ hardware.
+  
+  
+    Promote Research &amp;amp; Development activities on FOSS.
+  
+  
+    Explore various Open Source Certifications and Outreach Programmes.
+  
+  
+    Collaborate with and contribute to various open source communities and societies.
+  
+
+
+
+
+Myths and Challenges
+
+
+  
+    Hard to ada...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
