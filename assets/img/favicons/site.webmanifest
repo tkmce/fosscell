@@ -12,15 +12,97 @@ layout: compress
     {
       "src": "{{ favicon_path }}/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "{{ favicon_path }}/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "{{ favicon_path }}/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "{{ favicon_path }}/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }],
   "start_url": "{{ '/index.html' | relative_url }}",
   "theme_color": "#3fa648",
   "background_color": "#1b1b1d",
-  "display": "standalone"
+  "display": "standalone",
+  "orientation": "any",
+  "categories": ["blog", "tech", "foss", "education"],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Homepage of this blog",
+      "url": "{{ '/index.html' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/home.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Authors",
+      "short_name": "Authors",
+      "description": "View the list of authors of this blog",
+      "url": "{{ '/authors' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/authors.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Categories",
+      "short_name": "Categories",
+      "description": "View the categories of posts in this blog",
+      "url": "{{ '/categories' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/categories.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Tags",
+      "short_name": "Tags",
+      "description": "View the tags associated with posts in this blog",
+      "url": "{{ '/tags' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/tags.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Archives",
+      "short_name": "Archives",
+      "description": "View the timeline of the blog",
+      "url": "{{ '/archives' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/archives.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "About this blog",
+      "url": "{{ '/about' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/about.png", "sizes": "48x48" }]
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "{{ favicon_path }}/sc1.png",
+      "sizes": "1900x1000",
+      "type": "image/png"
+    },
+    {
+      "src": "{{ favicon_path }}/sc2.png",
+      "sizes": "1900x1000",
+      "type": "image/png"
+    },
+    {
+      "src": "{{ favicon_path }}/sc3.png",
+      "sizes": "1080x2160",
+      "type": "image/png"
+    },
+    {
+      "src": "{{ favicon_path }}/sc4.png",
+      "sizes": "1080x2160",
+      "type": "image/png"
+    }
+  ]
 }
