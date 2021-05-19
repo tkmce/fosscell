@@ -104,5 +104,9 @@ layout: compress
       "sizes": "1080x2160",
       "type": "image/png"
     }
+  ],
+  "features": [
+    "Cross Platform",
+    "Read Offline"
   ]
 }
