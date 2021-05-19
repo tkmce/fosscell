@@ -53,6 +53,31 @@ body {
   font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
+/* --- scrollbar --- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*box-shadow: inset 0 0 5px grey; */
+  border-radius: 5px;
+  background: #27282c;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #378641;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #38b843;
+}
+
 /* --- Typography --- */
 
 h1 {
